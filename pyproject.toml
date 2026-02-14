@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vizdem"
+version = "0.1.0"
+description = "Vizdem: Wisdom for your DEMs. Easy, aesthetic, and scientific visualizations."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy", 
+    "matplotlib",
+    "rasterio",
+    "click",
+    "scipy",
+    "fetchez",
+]
+
+[project.scripts]
+vizdem = "vizdem.cli:main"
