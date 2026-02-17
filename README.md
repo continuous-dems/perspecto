@@ -1,4 +1,6 @@
-# VIZDEM: Wisdom for your DEMs
+# 🌍 VIZDEM 🗺
+
+**Wisdom for your DEMs**
 
 **Vizdem** is a lightweight, standalone Python tool for generating aesthetic and scientific visualizations from Digital Elevation Models (DEMs).
 
