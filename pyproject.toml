@@ -9,7 +9,7 @@ description = "Vizdem: Wisdom for your DEMs. Easy, aesthetic, and scientific vis
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
-    "numpy", 
+    "numpy",
     "matplotlib",
     "rasterio",
     "click",
