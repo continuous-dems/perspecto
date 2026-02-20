@@ -4,7 +4,7 @@
 
 **Perspecto** is a lightweight, standalone Python tool for generating aesthetic and scientific visualizations from Digital Elevation Models (DEMs).
 
-Originally born from the [CUDEM](https://github.com/cires-dem/cudem) project, Perspecto has been decoupled to run on a modern, "pure Python" geospatial stack (Rasterio, NumPy, Matplotlib). It allows you to create everything from "Joy Division" style ridgeline plots to rigorous, georeferenced hillshades with a single command.
+Originally part the [CUDEM](https://github.com/ciresdem/cudem) project, Perspecto is now a standalone tool which allows you to create everything from "Joy Division" style ridgeline plots to rigorous, georeferenced hillshades with a single command.
 
 > ⚠️ **BETA STATUS:** This project is in active development (v0.1.3).
 
@@ -104,8 +104,6 @@ perspecto colorbar input.tif --engine pygmt --orient vertical -out legend_gmt.pn
 [ ] Automatic DEM Fetching: Download data for a region automatically using fetchez.
 
 [ ] Texture Overlay: Drape satellite imagery (Sentinel-2, NOAA) over hillshades.
-
-[ ] Water Masking: Flatten water bodies using vector data.
 
 [ ] 3D Perspective: Porting the POV-Ray modules for true 3D rendering.
 
